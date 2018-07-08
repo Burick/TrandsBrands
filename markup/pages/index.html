@@ -1,32 +1,62 @@
-<!doctype html>
-<html class="no-js" lang="ru">
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    {{> head/head head.defaults}}
+</head>
+<body>
 
-    <head>
-        {{> head/head head.defaults}}
-    </head>
+    <div class="uk-offcanvas-content">
+    
+        <header class="header">
+            {{> header/header}}
+        </header>
 
-    <body class="page">
-        %=symbols=%
+        <div class="banner">
+            {{> banner/banner}}
+        </div> 
 
-        <section class="page__wrapper">
+        <div class="description">
+            {{> description/description}}
+        </div>  
 
-            <!-- Include your modules here -->
+        <div class="collection">
+            {{> collection/collection}}
+        </div> 
 
-            {{> example/example}}
+        <div class="form-price">
+            {{> form-price/form-price}}
+        </div> 
 
-            <div class="page__buffer"></div>
+        <div class="terms">
+            {{> terms/terms}}
+        </div>
 
-        </section>
+        <div class="delivery">
+            {{> delivery/delivery}}
+        </div>
 
-        <footer class="page__footer">
-            {{> footer/footer}}
-        </footer>
+        <div class="about">
+            {{> about/about}}
+        </div>
 
-        <script src="%=static=%js/separate-js/svg4everybody.min.js"></script>
-        <script>svg4everybody();</script>
+        <div class="users">
+            {{> users/users}}
+        </div>
 
-        <!-- Main scripts. You can replace it, but I recommend you to leave it here     -->
-        <script src="%=static=%js/main%=hash=%%=min=%.js"></script>
-    </body>
+        <div class="reviews">
+            {{> reviews/reviews}}
+        </div>
+ 
+        <div class="request">
+            {{> request/request}}
+        </div>
 
+        <div class="contacts">
+            {{> contacts/contacts}}
+        </div>
+
+    </div>
+    {{> invisible/invisible}}
+
+</body>
 </html>

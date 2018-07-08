@@ -1,2 +1,20 @@
+/* Gui */
 // GUI stylies of the project
 // For example, styles of the links, buttons and so on.
+
+
+*,html,body{
+	font-family: $OpenSans;	
+	font-size: 18px;
+}
+.head{
+	
+}
+.billet{
+	background: $Gray;
+	color: white;
+	font-family: $Intro;
+	font-size: 24px;
+	font-weight: 900;
+	padding: 45px 115px;
+}
