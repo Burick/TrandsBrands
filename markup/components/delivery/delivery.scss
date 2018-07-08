@@ -1,0 +1,16 @@
+/* delivery */
+.delivery{
+	.map{
+		background:transparent url('__static__general/bw_map.png') top right no-repeat;
+		//background-size: 100%;
+	}
+	&__img_block{
+		.img{
+			background:transparent url('__static__general/car.png') top center no-repeat;
+			background-size: cover;
+			width: 482px;
+			height: 267px;
+		}
+
+	}
+}

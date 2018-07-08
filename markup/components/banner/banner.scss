@@ -1,0 +1,36 @@
+/* banner */
+.banner{
+	background:transparent url("../img/general/banner.jpg")  center -30px no-repeat;
+//	height: 670px;
+	padding-bottom: 55px;
+	text-align: center;
+	&__header{
+		font-family: $OpenSans;
+		padding-top: 230px;
+		color: white;
+		font-size: 36px;
+		font-weight: 900;
+		text-transform: uppercase;
+		margin-bottom: 25px;
+		span{
+			font-size: 36px;
+			font-weight: 900;
+			text-transform: uppercase;			
+			&:before{
+				display: table;
+				content: " ";
+			}
+		}	
+	}
+	&__button{
+		color: $Yellow;
+		line-height: 80px;
+		font-weight: 900;
+		margin-bottom: 145px;
+	}
+	&__description{
+		color: white;
+		font-size: 16px;
+		
+	}
+}

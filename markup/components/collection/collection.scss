@@ -1,0 +1,55 @@
+
+/* collection */
+.collection{
+	&__desc{
+		>div{
+			span{
+				width: 65px;
+				height: 65px;
+				display: inline-block;
+				color: white;
+				font-family: $Intro;
+				font-weight: 900;
+				font-size: 24px;
+				background: $Yellow;
+//				padding: 40px;
+			}
+		}
+	}	
+	.uk-slider-items{
+		img{
+			width: 100%;
+		}
+	}
+	.seasons{
+
+	    position: relative;
+	    top: 40%;
+	  //  display: table;
+	    width: 100%;
+	    *{
+	    	font-family: $Intro;
+			font-size: 20px;
+			font-weight: 900;	    	
+	    }
+		li{
+			list-style-type: none;
+			display: table-cell;
+			// *{
+			// 	color: black;
+			// }
+			a{
+				font-weight: 900;
+			}
+			span{
+
+			}
+			&.uk-active{
+				span{
+					color: $Yellow;
+				}
+			}			
+		}
+
+	}	
+}
