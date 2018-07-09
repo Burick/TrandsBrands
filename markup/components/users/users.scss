@@ -1,1 +1,36 @@
+/* users */
+.users{
+	padding-bottom: 140px;
+	&__img_block{
+		padding-top: 60px;
+		&__header{
+			font-size: 24px;
+			margin-bottom: 90px;
+		}
+		.uline{
+			background: transparent url('__static__general/line.png') bottom center no-repeat;
+			background-size: 85px 6px;
+			font-size: 24px;
+			padding-bottom: 14px;
+			font-family: $Intro;
+			font-weight: 900;
+			margin-bottom: 30px;
+			    
+		}
+		.social{
+			&__header{
+				padding: 10px;
+				font-size: 40px;
+				font-family: $Intro;
+				font-weight: 900;
+			}
+			&__body{
+				padding: 10px;
+				font-size: 20px;
+			}
+			&__icon{
 
+			}
+		}
+	}
+}

@@ -1,1 +1,17 @@
+/* request*/
+.request{	
+	margin-bottom: 100px;
+	&__desc{
+		margin-bottom: 40px;
+		line-height: 1.2;
+	}
+	.uk-button{
+		margin-top: 40px;
+	}
+	&__img_block{
+		img{
+			width: 100%;
+		}
+	}
 
+}

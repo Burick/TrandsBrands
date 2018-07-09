@@ -1,1 +1,28 @@
+/* reviews */
+.reviews{
+	margin-bottom: 100px;
+	&__blocks{
+		padding-top: 80px;
 
+	}
+	&__block{
+		.uk-card-header{
+			text-align: center;
+			border: none;
+		}
+		.uk-card-body{
+			padding: 25px;
+			font-size: 16px;
+			border: none;
+			padding-bottom: 10px;
+		}
+		.uk-card-footer{
+			padding: 25px;
+			font-size: 14px;
+			font-weight: 900;
+			border: none;
+			padding-top: 10px;
+		}
+	}
+
+}

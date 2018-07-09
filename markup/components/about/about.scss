@@ -1,7 +1,26 @@
 /* about */
 .about{
+	&__header{
+		background: $Yellow;
+		font-size: 24px;
+		font-weight: 900;
+		text-transform: uppercase;
+		line-height: 3;
+	}
 	&__img_block{
 		background:transparent url('__static__general/about.jpg') top center no-repeat;
 		height: 1014px;
+		&__header{
+			font-weight: 100;
+			font-size: 30px;
+			span{
+				font-weight: 900;
+			}
+		}
+		p{
+			font-family: $Intro;
+			font-size: 30px;
+			font-weight: 900;
+		}
 	}
 }

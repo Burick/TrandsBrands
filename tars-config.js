@@ -52,10 +52,7 @@ module.exports = {
     "templater": "handlebars",
     "cssPreprocessor": "scss",
     "useImagesForDisplayWithDpi": [
-        96,
-        192,
-        288,
-        384
+        96
     ],
     "fs": {
         "staticFolderName": "static",

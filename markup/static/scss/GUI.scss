@@ -3,13 +3,7 @@
 // For example, styles of the links, buttons and so on.
 
 
-*,html,body{
-	font-family: $OpenSans;	
-	font-size: 18px;
-}
-.head{
-	
-}
+
 .billet{
 	background: $Gray;
 	color: white;
@@ -17,4 +11,92 @@
 	font-size: 24px;
 	font-weight: 900;
 	padding: 45px 115px;
+}
+.subbillet{
+	font-size: 24px;
+	font-family: $Intro;
+	font-weight: 900;
+	padding: 40px;
+}
+.pl10{
+	padding-left: 10px;
+}
+.icon{
+	display: inline-block;
+  &--b12{
+  	@include bg($b12);
+  }
+  &--b60{
+  	@include bg($b60);
+  }
+  &--b70{
+  	@include bg($b70);
+  }
+  &--b80{
+  	@include bg($b80);
+  }
+  &--b90{
+  	@include bg($b90);
+  }
+  &--b900{
+  	@include bg($b900);
+  }
+  &--bags{
+  	@include bg($bags);
+  }
+  &--delivery{
+  	@include bg($delivery);
+  }
+  &--fb{
+  	@include bg($fb);
+  }
+  &--gmail{
+  	@include bg($gmail);
+  }
+  &--graf{
+  	@include bg($graf);
+  }
+  &--insta{
+  	@include bg($insta);
+  }
+  &--line{
+  	@include bg($line);
+  }
+  &--mail{
+  	@include bg($mail);
+  }
+  &--phone{
+  	@include bg($phone);
+  }
+  &--stock{
+  	@include bg($stock);
+  }
+  &--vk{
+  	@include bg($vk);
+  }
+}
+.uk-h3{
+	font-size: 24px;
+	font-family: $Intro;
+	font-weight: 900;
+}
+.uk-input{
+	background: #fafafa;
+	margin-bottom: 15px;
+	font-size: 14px;
+}
+
+.uk-button{
+	font-family: $Intro;
+	font-weight: 900;	
+	&-primary{
+		border: 2px solid black;
+		background: white;
+		color: black;
+		&:hover{
+			background: $Gray;	
+			color: white;
+		}
+
+	}
 }
